@@ -1,5 +1,5 @@
 [package]
-name = "cli_args"
+name = "bits_of_rust"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,3 +7,13 @@ edition = "2021"
 
 [dependencies]
 clap = { version = "4.1.13", features = ["derive"] }
+futures = "0.3"
+rand = "0.8.5"
+
+[[bin]]
+name = "cli_args"
+path = "src/cli_args.rs"
+
+[[bin]]
+name = "async_simple"
+path = "src/async_simple.rs"
