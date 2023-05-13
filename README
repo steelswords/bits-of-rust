@@ -9,12 +9,13 @@ the fundamentals in smaller, quicker steps.
 | Name | Main Features | Description |
 |------|---------------|-----------------|
 | cli_args | Command line argument parsing | Parses and prints different things depending on the arguments given on the command line |
+| async_simple | Asynchronous execution | Largely taken from the *Async Book*, this demonstrates several async features. |
+| tcpprint | TcpListener, TcpStream | Prints everything it receives over TCP, like a very limited `netcat` or `nc` program |
 
 # Future Work
 Here are some Bits of Rust I want to write in the future:
-- Something with traits. Students and people or something actually intersting if I can think of it.
 - Closures and callbacks
-- Async IO
 - gRPC and/or protobufs
 - Reading JSON from a TCP socket
 - Writing JSON to a TCP socket/UDP.
+- Passing Rust objects back and forth over a socket with `serde`

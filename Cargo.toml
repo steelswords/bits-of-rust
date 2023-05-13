@@ -17,3 +17,7 @@ path = "src/cli_args.rs"
 [[bin]]
 name = "async_simple"
 path = "src/async_simple.rs"
+
+[[bin]]
+name = "tcpprint"
+path = "src/tcpprint.rs"
